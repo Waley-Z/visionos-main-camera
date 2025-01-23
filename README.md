@@ -1,5 +1,7 @@
 # Main Camera Access
 
+This is a setup guide on how to access the main camera feed in a VisionOS app using the [Main Camera Access Enterprise API](https://developer.apple.com/documentation/visionos/accessing-the-main-camera).
+
 ## Setting Up a New VisionOS Xcode Project
 
 Follow these steps to create your first VisionOS app:
@@ -26,7 +28,7 @@ For more details, refer to the official guide: [Creating your first VisionOS app
 3. **Edit `Info.plist`:**
    - Add the key `NSEnterpriseMCAMUsageDescription` and provide a description for the main camera usage.
 
-![image-20241016080550550](MainCameraAccess.assets/image-20241016080550550.png)
+![image-20241016080550550](README.assets/image-20241016080550550.png)
 
 For more details, check out: [Building Spatial Experiences for Business Apps with Enterprise APIs](https://developer.apple.com/documentation/visionOS/building-spatial-experiences-for-business-apps-with-enterprise-apis).
 
@@ -103,4 +105,4 @@ struct ContentView: View {
 
 	> Note: Main Camera Access is only available in Immersive Space. Once you toggle the Immersive Space on, you’ll see the camera being accessed, indicated by the green dot on the top of the screen.
 
-![image-20241016083000593](MainCameraAccess.assets/image-20241016083000593.png)
+![image-20241016083000593](README.assets/image-20241016083000593.png)
